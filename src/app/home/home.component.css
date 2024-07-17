@@ -21,9 +21,9 @@
   
   button {
     padding: 10px;
-    /* border: solid 1px var(--primary-color);
-    background: var(--primary-color); */
-    /* color: white; */
+    border: solid 1px var(--primary-color);
+    background: var(--primary-color); 
+    color: red;
     border-radius: 8px;
   }
   
