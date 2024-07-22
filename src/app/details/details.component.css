@@ -5,7 +5,7 @@
     border-radius: 30px;
     float: right;
   }
-  
+   
   .listing-heading {
     font-size: 48pt;
     font-weight: bold;
@@ -22,6 +22,7 @@
   }
   
   .listing-features > .section-heading {
+    --secondary-color:pink;
     color: var(--secondary-color);
     font-size: 24pt;
     margin-bottom: 15px;
@@ -48,6 +49,7 @@
     display: block;
   }
   label {
+    --secondary-color:pink;
     color: var(--secondary-color);
     font-weight: bold;
     text-transform: uppercase;
@@ -62,6 +64,10 @@
     border-right: none;
     border-left: none;
     border-bottom: solid .3px;
+  }
+  button{
+    background-color: linen;
+
   }
   @media (max-width: 1024px) {
     .listing-photo {
